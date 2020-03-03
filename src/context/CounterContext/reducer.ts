@@ -1,7 +1,7 @@
 export const initialState = { count: 0 };
 
 function reducer(state, action) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       switch (action.type) {
         case 'up':
